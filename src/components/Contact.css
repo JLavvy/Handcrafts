@@ -1,0 +1,130 @@
+/* Contact Header */
+.contact-header {
+    background-image: url('https://via.placeholder.com/1920x600');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .contact-heading {
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .contact-subheading {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Contact Form Section */
+  .contact-form-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .form-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    border-radius: 0;
+  }
+  
+  .btn-primary {
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.8rem 2rem;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+  }
+  
+  /* Contact Info Container */
+  .contact-info-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    height: 100%;
+  }
+  
+  .info-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info-item i {
+    font-size: 1.5rem;
+    color: #e74c3c;
+    margin-right: 15px;
+  }
+  
+  .info-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+  
+  .info-text {
+    color: #333333;
+  }
+  
+  /* Contact Map Section */
+  .contact-map-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .map-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .map-container {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Animations */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .contact-form-container,
+  .contact-info-container {
+    animation: fadeInUp 0.8s ease-out;
+  }

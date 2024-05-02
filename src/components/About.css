@@ -1,0 +1,49 @@
+.about-section {
+  padding: 80px 0;
+  background-color: #ECF0F1;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #2C3E50;
+}
+
+.section-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #333333;
+}
+
+.btn-primary {
+  background-color: #2C3E50;
+  border-color: #2C3E50;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0.8rem 2rem;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #E74C3C;
+  border-color: #E74C3C;
+  color: #ffffff;
+}
+
+a {
+  color: #3498DB;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2C3E50;
+}

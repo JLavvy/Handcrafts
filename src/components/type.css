@@ -1,0 +1,75 @@
+.craft-types-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+  }
+
+  
+  
+  .section-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .craft-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .craft-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .craft-item:hover .craft-image img {
+    transform: scale(1.1);
+  }
+  
+  .craft-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .craft-item:hover .craft-overlay {
+    opacity: 1;
+  }
+  
+  .craft-details {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .craft-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .craft-description {
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.8rem 2rem;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+  }
