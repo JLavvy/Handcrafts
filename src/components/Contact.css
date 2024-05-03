@@ -1,6 +1,6 @@
 /* Contact Header */
 .contact-header {
-    background-image: url('https://via.placeholder.com/1920x600');
+    background-image: url('con.webp');
     background-size: cover;
     background-position: center;
     padding: 100px 0;
@@ -28,10 +28,16 @@
   .form-heading {
     font-size: 2rem;
     font-weight: bold;
-    color: #2c3e50;
+    color: black;
     margin-bottom: 30px;
   }
-  
+
+.custom-input:focus,
+.custom-textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #ced4da; 
+}
   .form-group {
     margin-bottom: 20px;
   }
@@ -40,19 +46,20 @@
     border-radius: 0;
   }
   
-  .btn-primary {
-    background-color: #2c3e50;
-    border-color: #2c3e50;
-    color: #ffffff;
+  .cont-btn {
+    background-color: #2c3e50 !important;
+    border-color: #2c3e50 !important;
+    color: #ffffff !important;
     font-weight: bold;
     padding: 0.8rem 2rem;
     transition: background-color 0.3s ease;
     text-decoration: none;
   }
   
-  .btn-primary:hover {
-    background-color: #e74c3c;
-    border-color: #e74c3c;
+  .cont-btn:hover {
+    background-color: #e74c3c !important;
+    border-color: #e74c3c !important;
+    color: #ffffff !important; 
   }
   
   /* Contact Info Container */
@@ -65,9 +72,9 @@
   }
   
   .info-heading {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    color: #2c3e50;
+    color: black;
     margin-bottom: 30px;
   }
   
@@ -84,7 +91,7 @@
   }
   
   .info-title {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     color: #2c3e50;
     margin-bottom: 5px;
@@ -94,18 +101,17 @@
     color: #333333;
   }
   
-  /* Contact Map Section */
   .contact-map-section {
-    padding: 80px 0;
+    padding: 50px 0;
     background-color: #f8f9fa;
   }
   
   .map-heading {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.5rem;
     color: #2c3e50;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .map-container {
@@ -126,5 +132,5 @@
   
   .contact-form-container,
   .contact-info-container {
-    animation: fadeInUp 0.8s ease-out;
+    animation: fadeInUp 1.8s ease-out;
   }

@@ -1,27 +1,31 @@
 import React from 'react'
 
 import './App.css'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Landing } from './components/Landing'
-import { About } from './components/About'
-import { Bestseller } from './components/best-seller'
-import { Type } from './components/type'
-import { Artists } from './components/artists'
-import { Testimony } from './components/Testimony'
+
 import { Contact } from './components/Contact'
+import { Footer } from './components/Footer'
+import { Shop } from './components/Shop';
+import { AboutUs } from './components/AboutUs';
 
 function App() {
   return (
     <>
       <div className="App">
-        
-       <Landing />
-       <About />
-       <Type />
-       <Artists />
-       <Bestseller />
-       <Testimony />
-       <Contact />
-       
+
+        <Router>
+          <Routes>
+            <Route path="/" element={<Landing />} />
+            <Route path="/AboutUs" element={<AboutUs />} />
+            <Route path="/Shop" element={<Shop />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Router>
+
+
+        <Footer />
+
 
       </div>
     </>
