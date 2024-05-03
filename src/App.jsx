@@ -1,9 +1,7 @@
 import React from 'react'
-
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Landing } from './components/Landing'
-
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 import { Shop } from './components/Shop';
