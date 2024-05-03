@@ -65,13 +65,13 @@ export const AboutUs = () => {
             </p>
             <ul className="values-list">
               <li>
-               Passion for Creativity
+               Passion for Creativity.
               </li>
               <li>
-                Ethical and Sustainable Practices
+                Ethical and Sustainable Practices.
               </li>
               <li>
-                Embracing Cultural Diversity
+                Embracing Cultural Diversity.
               </li>
             </ul>
           </Col>
