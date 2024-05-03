@@ -15,7 +15,7 @@ export const Contact = () => {
             </Nav.Link>
             <Nav.Link href="/AboutUs">About</Nav.Link>
             <Nav.Link href="/Shop">Shop</Nav.Link>
-            <Nav.Link href="#">Products</Nav.Link>
+            
             {/*<Nav.Link href="#">Lorem</Nav.Link>
               <NavDropdown title="Lorem" id="navbarDropdown">
                 <NavDropdown.Item href="#">Lorem</NavDropdown.Item>
