@@ -1,6 +1,6 @@
 /* Contact Header */
 .contact-header {
-    background-image: url('contact.jpg');
+    background-image: url('public/contact.jpg');
     background-size: cover;
     background-position: center;
     padding: 100px 0;

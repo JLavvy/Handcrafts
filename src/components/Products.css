@@ -1,6 +1,6 @@
 
   .hero-section-type {
-    background-image: url(type.jpg);
+    background-image: url('public/type.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
