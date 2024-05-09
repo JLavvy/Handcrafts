@@ -32,8 +32,8 @@ export const Footer = () => {
               </li>
 
               <li>
-                <a href="/Shop" className="footer-link">
-                  Shop
+                <a href="/Products" className="footer-link">
+                  Products
                 </a>
               </li>
               

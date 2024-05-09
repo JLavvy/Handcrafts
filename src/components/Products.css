@@ -1,0 +1,35 @@
+
+  .hero-section-type {
+    background-image: url(type.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+}
+
+.overlay-type {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+  .hero-text-type {
+    color: #ecf0f1;
+    position: relative;
+    z-index: 1;
+    padding-top: 200px;
+}
+
+.products-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+    .type-header{
+    font-size: 2.5rem;
+    margin-bottom: 1rem ;
+  }
+ 
+  

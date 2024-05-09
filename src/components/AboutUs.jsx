@@ -13,7 +13,7 @@ export const AboutUs = () => {
           variant="dark"
           fixed="top"
         >
-          <Navbar.Brand href="#">My Lorem Ipsum</Navbar.Brand>
+          <Navbar.Brand href="/">CraftyArtisanMarket</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarNav" />
           <Navbar.Collapse id="navbarNav">
             <Nav className="mx-auto">
@@ -21,15 +21,7 @@ export const AboutUs = () => {
                 Home
               </Nav.Link>
               <Nav.Link href="/AboutUs">About</Nav.Link>
-              <Nav.Link href="/Shop">Shop</Nav.Link>
-           
-              {/*<Nav.Link href="#">Lorem</Nav.Link>
-              <NavDropdown title="Lorem" id="navbarDropdown">
-                <NavDropdown.Item href="#">Lorem</NavDropdown.Item>
-                <NavDropdown.Item href="#">Ipsum</NavDropdown.Item>
-                <NavDropdown.Item href="#">Lorem</NavDropdown.Item>
-                <NavDropdown.Item href="#">Ipsum</NavDropdown.Item>
-  </NavDropdown>*/}
+              <Nav.Link href="/Products">Products</Nav.Link>
               <Nav.Link href="/Contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>

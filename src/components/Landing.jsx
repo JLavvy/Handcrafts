@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 
 export const Landing = () => {
@@ -12,7 +12,7 @@ export const Landing = () => {
           variant="dark"
           fixed="top"
         >
-          <Navbar.Brand href="#">My Lorem Ipsum</Navbar.Brand>
+          <Navbar.Brand href="/">CraftyArtisanMarket</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarNav" />
           <Navbar.Collapse id="navbarNav">
             <Nav className="mx-auto">
@@ -20,15 +20,7 @@ export const Landing = () => {
                 Home
               </Nav.Link>
               <Nav.Link href="/AboutUs">About</Nav.Link>
-              <Nav.Link href="/Shop">Shop</Nav.Link>
-             
-              {/*<Nav.Link href="#">Lorem</Nav.Link>
-              <NavDropdown title="Lorem" id="navbarDropdown">
-                <NavDropdown.Item href="#">Lorem</NavDropdown.Item>
-                <NavDropdown.Item href="#">Ipsum</NavDropdown.Item>
-                <NavDropdown.Item href="#">Lorem</NavDropdown.Item>
-                <NavDropdown.Item href="#">Ipsum</NavDropdown.Item>
-  </NavDropdown>*/}
+              <Nav.Link href="/Products">Products</Nav.Link>
               <Nav.Link href="/Contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -47,7 +39,7 @@ export const Landing = () => {
               </p>
             </div>
             <div className="intro-buttons">
-              <a href="/Shop" className="btn btn-light intro-btn">Shop Now</a>
+              <a href="/Products" className="btn btn-light intro-btn">View Products</a>
 
             </div>
           </div>
@@ -314,7 +306,7 @@ export const Landing = () => {
                     </div>
                     <div className="testimonial-details">
                       <h3 className="customer-name">John Smith</h3>
-                      <p className="customer-location">New York, USA</p>
+                      <p className="customer-location">Nairobi, Kenya</p>
                       <blockquote className="testimonial-text">
                         "I'm absolutely in love with the handcrafted pottery pieces I bought from your website. The attention to detail and unique designs are truly exceptional. It's evident that these were made with passion and care."
                       </blockquote>
@@ -328,7 +320,7 @@ export const Landing = () => {
                     </div>
                     <div className="testimonial-details">
                       <h3 className="customer-name">Janet Lockwood</h3>
-                      <p className="customer-location">London, UK</p>
+                      <p className="customer-location">Nakuru, Kenya</p>
                       <blockquote className="testimonial-text">
                         "I recently purchased a handmade wooden table from your collection, and it's absolutely stunning. The craftsmanship is impeccable, and the piece adds a warm and unique touch to my home. Supporting local artisans has never been more rewarding."
                       </blockquote>
@@ -342,7 +334,7 @@ export const Landing = () => {
                     </div>
                     <div className="testimonial-details">
                       <h3 className="customer-name">Elena Gilbert</h3>
-                      <p className="customer-location">Sydney, Australia</p>
+                      <p className="customer-location">Mombasa, Kenya</p>
                       <blockquote className="testimonial-text">
                         "The handcrafted jewelry pieces I purchased are absolutely breathtaking. Each piece is a true work of art, and I can feel the love and dedication that went into making them. I'm proud to support such talented artisans."
                       </blockquote>
