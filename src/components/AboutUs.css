@@ -12,7 +12,7 @@ h3 {
 
 /* Hero Section */
 .hero-section {
-    background-image: url('public/about.jpg');
+    background-image: url("C:/Users/lavog/OneDrive/Documents/GitHub/Handcrafts/public/about.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
